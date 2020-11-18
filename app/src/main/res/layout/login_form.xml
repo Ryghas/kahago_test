@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_form_top"
+        android:layout_marginStart="@dimen/margin_form_side"
+        android:layout_marginEnd="@dimen/margin_form_side">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_text"
+            android:textSize="@dimen/title_text"
+            android:textColor="@color/black_text"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_5"
+            android:text="@string/silahkan_masukan_data_anda"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/light_gray_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/black_text"
+            android:hint="@string/masukan_email"
+            android:textColorHint="@color/gray_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/black_text"
+            android:hint="@string/masukan_password"
+            android:textColorHint="@color/gray_text"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_gravity="center"
+            android:text="@string/lupa_password"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/red"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_48"
+            android:layout_marginTop="@dimen/space_10"
+            android:text="@string/login_text"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_gravity="center"
+            android:text="@string/belum_punya_akun_kahago"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/light2_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_marginBottom="@dimen/space_20"
+            android:layout_gravity="center"
+            android:text="@string/daftar_sekarang"
+            android:textSize="@dimen/text_16"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
